@@ -1,0 +1,8 @@
+version: '2'
+services:
+  scrapy:
+    build: ./
+    volumes:
+      - .:/app
+    env_file:
+      - .env

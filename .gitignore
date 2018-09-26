@@ -1,0 +1,10 @@
+# Python
+*.pyc
+
+# JetBrains
+/.idea
+/*.iml
+
+# Application
+/.output
+/.env
